@@ -1,0 +1,10 @@
+logging:
+  level: "debug"
+
+server:
+  host: "0.0.0.0"
+  port: 50051
+  tls:
+    enabled: false
+    cert_file: "./"
+    key_file: "./"
