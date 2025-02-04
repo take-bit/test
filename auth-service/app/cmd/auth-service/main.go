@@ -17,4 +17,5 @@ func main() {
 		slog.String("Logging level", cfg.Logging.Level),
 		slog.String("Address server", fmt.Sprintf("%s:%d", cfg.Server.Host, cfg.Server.Port)))
 
+	logger.Info("test")
 }
